@@ -1,0 +1,11 @@
+      PROGRAM NEWTEST
+      DOUBLE PRECISION A, B
+      WRITE (6, 201)
+ 201  FORMAT ('PLEASE ENTER A NUMBER: ')
+      READ (5,*) A
+      B = DSQRT(A)
+      WRITE (6, 202) A, B
+ 202  FORMAT ('THE SQUARE ROOT OF A IS B', 2F15.5)
+      STOP
+      END
+
