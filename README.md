@@ -1,3 +1,3 @@
 # Fortran 77 Demo
 ---
-Using gfortran 8.2, compile sqrt.f
+Using gfortran 8.2, compile newtest.f
