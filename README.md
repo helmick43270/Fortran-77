@@ -1,4 +1,3 @@
-# hello-world
+# Fortran 77 Demo
 ---
-Test
-Changed local copy
+Using gfortran 8.2, compile sqrt.f
