@@ -29,6 +29,12 @@ C     for double precision variables.
       B = DSQRT(A)
 
 C     Output result to standard output.
+C     The 2F15.5 is a format notation meaning \
+C     to use the following pattern on two variables, \
+C     use floating point notation, reserve \
+C     15 columns for outputting each variable \
+C     value, and show five significant figures \
+C     after the decimal point.
 
       WRITE (6, 202) A, B
  202  FORMAT ('THE SQUARE ROOT OF A IS B', 2F15.5)
